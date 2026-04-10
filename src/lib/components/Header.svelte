@@ -5,7 +5,7 @@
   let isHamburgerMenuOpen = false;
 </script>
 
-<header class="px-8 md:px-16 bg-neutral-50">
+<header class="px-8 md:px-16 bg-neutral-50 sticky top-0 z-40">
   <div
     class="w-full flex py-4 items-center justify-between border-b border-gray-600 h-[80px]"
   >
@@ -27,6 +27,11 @@
         href="/galeria"
         class:active-nav-item={$page.url.pathname.startsWith('/galeria')}
         >Galería</a
+      >
+      <a
+        class="nav-item"
+        href="/lab"
+        class:active-nav-item={$page.url.pathname.startsWith('/lab')}>Lab</a
       >
       <a
         class="nav-item"
@@ -59,8 +64,9 @@
               on:click={() => (isHamburgerMenuOpen = false)}
               class="nav-item nav-item-mobile"
               href="/webdesign"
-              class:active-nav-item={$page.url.pathname.startsWith('/galeria')}
-              >Diseño Web</a
+              class:active-nav-item={$page.url.pathname.startsWith(
+                '/webdesign'
+              )}>Diseño Web</a
             >
           </li>
           <li class="text-center w-full">
@@ -70,6 +76,15 @@
               href="/galeria"
               class:active-nav-item={$page.url.pathname.startsWith('/galeria')}
               >Galería</a
+            >
+          </li>
+          <li>
+            <a
+              on:click={() => (isHamburgerMenuOpen = false)}
+              class="nav-item nav-item-mobile"
+              href="/lab"
+              class:active-nav-item={$page.url.pathname.startsWith('/lab')}
+              >Lab</a
             >
           </li>
           <li class="text-center w-full">
