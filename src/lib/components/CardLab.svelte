@@ -19,7 +19,7 @@
 
 <a href={link} class="block group">
   <article
-    class="w-96 h-80 grayscale bg-cover bg-center transition-all duration-300"
+    class="md:w-96 w-80 h-96 grayscale bg-cover bg-center transition-all duration-300"
     style="background-image: url({image})"
   >
     <div

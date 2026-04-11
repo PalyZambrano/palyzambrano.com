@@ -3,15 +3,15 @@
 </script>
 
 <section class="flex">
-  <div class="flex flex-col m-auto md:mt-20">
+  <div class="flex flex-col m-auto mt-12 md:mt-20">
     <h3 class="text-5xl uppercase font-semibold text-center">Colección</h3>
     <p class="text-sm md:text-base text-center">
       Un recorrido por el proceso creativo
     </p>
   </div>
 </section>
-<section class="h-60 flex">
-  <div class="flex flex-col md:pl-16 md:mt-20 w-3/4 md:w-1/2">
+<section class="h-52 md:h-60 flex">
+  <div class="flex flex-col pl-10 md:pl-16 mt-10 md:mt-20 w-11/12 md:w-1/2">
     <h3 class="text-xl uppercase font-semibold">Web & Producto</h3>
     <p class="text-sm md:text-base">
       Aquí se revela el trayecto invisible: Un recorrido por las ideas que se
@@ -61,9 +61,8 @@
 </section>
 
 <!-- galery -->
-
-<section class="h-60 flex">
-  <div class="flex flex-col md:pl-16 md:mt-20 w-3/4 md:w-1/2">
+<section class="h-52 md:h-60 flex">
+  <div class="flex flex-col pl-10 md:pl-16 mt-10 md:mt-20 w-11/12 md:w-1/2">
     <h3 class="text-xl uppercase font-semibold">Visual</h3>
     <p class="text-sm md:text-base">
       Cada pieza responde a una necesidad real, abordada desde un enfoque que
