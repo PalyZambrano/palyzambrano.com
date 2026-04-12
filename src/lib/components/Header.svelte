@@ -63,15 +63,7 @@
               )}>Colección</a
             >
           </li>
-          <li class="text-center w-full">
-            <a
-              on:click={() => (isHamburgerMenuOpen = false)}
-              class="nav-item nav-item-mobile"
-              href="/galeria"
-              class:active-nav-item={$page.url.pathname.startsWith('/galeria')}
-              >Galería</a
-            >
-          </li>
+
           <li>
             <a
               on:click={() => (isHamburgerMenuOpen = false)}

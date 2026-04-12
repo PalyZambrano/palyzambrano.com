@@ -1,4 +1,6 @@
 <script>
+  import SongCard from '$lib/components/SongCard.svelte';
+
   const project = {
     title: 'Bitácora de pasos',
     category: 'Ilustración',
@@ -13,39 +15,6 @@
       'Porque al final, no recordamos todos los días. Pero sí recordamos cómo nos sentíamos en ciertos momentos. Y a veces, ese recuerdo vuelve a nosotros a través de algo tan simple como un par de zapatos.',
       'Tal vez por eso sigo mirando hacia abajo.',
       'Tal vez por eso sigo diciendo, en silencio o por dentro, “ooh”.'
-    ],
-
-    // Imágenes del proyecto (2-4 imágenes)
-    images: [
-      {
-        url: 'https://images.unsplash.com/photo-1618005198919-d3d4b5a92ead?w=1200&q=80',
-        caption: 'Vista principal del proyecto'
-      },
-      {
-        url: 'https://images.unsplash.com/photo-1618556450994-a6a128ef0d9d?w=800&q=80',
-        caption: 'Detalle de la implementación'
-      },
-      {
-        url: 'https://images.unsplash.com/photo-1618556450991-2f1af64e8191?w=800&q=80',
-        caption: 'Versión responsive'
-      }
-    ],
-
-    // Highlights del proyecto (3-5 puntos)
-    highlights: [
-      'Diseño minimalista y funcional',
-      'Desarrollo en tiempo récord',
-      'Optimizado para móviles',
-      'Integración con herramientas existentes'
-    ],
-
-    // Stack (opcional)
-    stack: ['Figma', 'HTML/CSS', 'JavaScript', 'Tailwind'],
-
-    // Links externos (opcional)
-    links: [
-      { text: 'Ver proyecto', url: '#' },
-      { text: 'GitHub', url: '#' }
     ]
   };
 </script>
@@ -77,26 +46,34 @@
       </div>
     </div>
   </section>
-
-  <!-- Grid de imágenes secundarias (si hay más de 1) -->
-  {#if project.images.length > 1}
-    <section class="px-6 md:px-12 py-16">
-      <div class="max-w-5xl mx-auto">
-        <div class="grid md:grid-cols-2 gap-8">
-          {#each project.images.slice(1) as image}
-            <div>
-              <img
-                src={image.url}
-                alt={image.caption}
-                class="w-full h-auto mb-4"
-              />
-              {#if image.caption}
-                <p class="text-xs text-zinc-400">{image.caption}</p>
-              {/if}
-            </div>
-          {/each}
-        </div>
+  <section class="px-6 md:px-12 py-16">
+    <div class="max-w-5xl mx-auto">
+      <div class="grid md:grid-cols-2 gap-8">
+        <SongCard
+          coverImage="https://images.unsplash.com/photo-1618556450994-a6a128ef0d9d?w=800&q=80"
+          coverAlt="Descripción de la imagen"
+          text="Esta canción acompañó todo el proceso. La escuché en bucle mientras dibujaba cada trazo."
+          appleUrl="https://embed.music.apple.com/es/album/bicho-de-ciudad/1811624400?i=1811624413"
+        />
+        <SongCard
+          coverImage="https://images.unsplash.com/photo-1618556450994-a6a128ef0d9d?w=800&q=80"
+          coverAlt="Descripción de la imagen"
+          text="Esta canción acompañó todo el proceso. La escuché en bucle mientras dibujaba cada trazo."
+          appleUrl="https://embed.music.apple.com/es/album/bicho-de-ciudad/1811624400?i=1811624413"
+        />
+        <SongCard
+          coverImage="https://images.unsplash.com/photo-1618556450994-a6a128ef0d9d?w=800&q=80"
+          coverAlt="Descripción de la imagen"
+          text="Esta canción acompañó todo el proceso. La escuché en bucle mientras dibujaba cada trazo."
+          appleUrl="https://embed.music.apple.com/es/album/bicho-de-ciudad/1811624400?i=1811624413"
+        />
+        <SongCard
+          coverImage="https://images.unsplash.com/photo-1618556450994-a6a128ef0d9d?w=800&q=80"
+          coverAlt="Descripción de la imagen"
+          text="Esta canción acompañó todo el proceso. La escuché en bucle mientras dibujaba cada trazo."
+          appleUrl="https://embed.music.apple.com/es/album/bicho-de-ciudad/1811624400?i=1811624413"
+        />
       </div>
-    </section>
-  {/if}
+    </div>
+  </section>
 </article>
