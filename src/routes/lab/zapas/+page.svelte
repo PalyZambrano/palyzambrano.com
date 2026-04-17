@@ -50,25 +50,37 @@
     <div class="max-w-5xl mx-auto">
       <div class="grid md:grid-cols-2 gap-8">
         <SongCard
-          coverImage="https://images.unsplash.com/photo-1618556450994-a6a128ef0d9d?w=800&q=80"
+          coverImage="/img-lab/zapas/zuecos.JPG"
+          coverAlt="Descripción de la imagen"
+          text="Esta canción acompañó todo el proceso. La escuché en bucle mientras dibujaba cada trazo."
+          appleUrl="https://embed.music.apple.com/es/album/que-nadie-sepa-mi-sufrir/1834214811?i=1834214971"
+        />
+        <SongCard
+          coverImage="/img-lab/zapas/charol.JPG"
           coverAlt="Descripción de la imagen"
           text="Esta canción acompañó todo el proceso. La escuché en bucle mientras dibujaba cada trazo."
           appleUrl="https://embed.music.apple.com/es/album/bicho-de-ciudad/1811624400?i=1811624413"
         />
         <SongCard
-          coverImage="https://images.unsplash.com/photo-1618556450994-a6a128ef0d9d?w=800&q=80"
+          coverImage="/img-lab/zapas/converseblack.JPG"
+          coverAlt="Descripción de la imagen"
+          text="Esta canción acompañó todo el proceso. La escuché en bucle mientras dibujaba cada trazo."
+          appleUrl="https://embed.music.apple.com/es/album/bicho-de-ciudad/1811624400?i=1811624413"
+        />
+         <SongCard
+          coverImage="/img-lab/zapas/vansorange.JPG"
           coverAlt="Descripción de la imagen"
           text="Esta canción acompañó todo el proceso. La escuché en bucle mientras dibujaba cada trazo."
           appleUrl="https://embed.music.apple.com/es/album/bicho-de-ciudad/1811624400?i=1811624413"
         />
         <SongCard
-          coverImage="https://images.unsplash.com/photo-1618556450994-a6a128ef0d9d?w=800&q=80"
+          coverImage="/img-lab/zapas/DrMartens.JPG"
           coverAlt="Descripción de la imagen"
           text="Esta canción acompañó todo el proceso. La escuché en bucle mientras dibujaba cada trazo."
           appleUrl="https://embed.music.apple.com/es/album/bicho-de-ciudad/1811624400?i=1811624413"
         />
         <SongCard
-          coverImage="https://images.unsplash.com/photo-1618556450994-a6a128ef0d9d?w=800&q=80"
+          coverImage="/img-lab/zapas/falcon.JPG"
           coverAlt="Descripción de la imagen"
           text="Esta canción acompañó todo el proceso. La escuché en bucle mientras dibujaba cada trazo."
           appleUrl="https://embed.music.apple.com/es/album/bicho-de-ciudad/1811624400?i=1811624413"

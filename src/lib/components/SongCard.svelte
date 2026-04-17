@@ -6,35 +6,17 @@
   let playing = false;
   let progress = 0;
 
-  function togglePlay() {
-    playing = !playing;
-  }
-
-  function formatTime(pct) {
-    const [m, s] = song.duration.split(':').map(Number);
-    const total = m * 60 + s;
-    const current = Math.round((pct / 100) * total);
-    return `${Math.floor(current / 60)}:${String(current % 60).padStart(
-      2,
-      '0'
-    )}`;
-  }
-
-  function seek(e) {
-    const rect = e.currentTarget.getBoundingClientRect();
-    progress = Math.round(((e.clientX - rect.left) / rect.width) * 100);
-  }
 </script>
 
-<section class="w-full">
+<section class="w-full border border-1 border-black p-4">
   {#if coverImage}
     <img
       src={coverImage}
       alt={coverAlt}
-      class="w-full aspect-video object-cover rounded-xl mb-6"
+      class="w-full object-contain  rounded-xl mb-6"
     />
   {/if}
-  <div class="w-full h-36">
+  <div class="w-full h-36 ">
     <iframe
       allow="autoplay *; 
       encrypted-media *;"
