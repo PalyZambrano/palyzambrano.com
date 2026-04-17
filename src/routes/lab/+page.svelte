@@ -4,7 +4,7 @@
 
 <main class="flex flex-col md:flex-row justify-between md:px-16 py-20">
   <section class="w-full md:w-2/6">
-    <article class="md:fixed w-full px-12 md:px-0 md:w-4/12 md:mt-20">
+    <article class="md:fixed w-full px-12 md:px-0 md:w-4/12">
       <div class="flex flex-col">
         <h3 class="text-5xl uppercase font-semibold">Lab</h3>
         <span class="pt-2 pb-4">Este es un espacio de exploración. </span>
@@ -27,14 +27,14 @@
         <CardLab
           title="Bitácora de pasos"
           image="/img-lab/zapas/zuecos.JPG"
-          link="/galeria/colomba"
+          link="/lab/zapas"
         />
       </li>
       <li>
         <CardLab
-          title="Maica"
-          image="/img-brand/maica/bolsa-maica.png"
-          link="/galeria/maica"
+          title="Boda N&D"
+          image="/img-lab/bodand.png"
+          link="/lab/bodand"
         />
       </li>
       <li>
