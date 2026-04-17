@@ -41,6 +41,6 @@
     </div>
   </section>
   <section class="w-full md:w-2/3 px-6 md:px-12 py-16 m-auto">
-    <img src="/img-lab/bafotch.png" alt="" />
+    <img src="/img-lab/bafotch.png" alt="ilustracion bafotch" />
   </section>
 </article>

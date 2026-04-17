@@ -39,9 +39,9 @@
       </li>
       <li>
         <CardLab
-          title="Colomba"
-          image="/img-brand/colomba/col-procesos.png"
-          link="/galeria/colomba"
+          title="BAFOTCH"
+          image="/img-lab/bafotch.png"
+          link="/lab/bafotch"
         />
       </li>
       <li>
