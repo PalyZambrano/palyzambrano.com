@@ -71,8 +71,8 @@
     </p>
   </div>
 </section>
-<section class="md:overflow-x-scroll py-4">
-  <ul class="flex flex-col md:flex-row gap-4 items-center justify-center">
+<section class="md:overflow-x-scroll md:pl-14 py-4">
+  <ul class="flex flex-col md:flex-row gap-4 items-center">
     <li>
       <CardGaleria
         title="Colomba"

@@ -25,8 +25,8 @@
     <ul class="flex flex-wrap gap-3 md:justify-end justify-center">
       <li>
         <CardLab
-          title="Colomba"
-          image="/img-brand/colomba/col-procesos.png"
+          title="Bitácora de pasos"
+          image="/img-lab/zapas/zuecos.JPG"
           link="/galeria/colomba"
         />
       </li>

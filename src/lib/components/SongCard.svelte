@@ -5,7 +5,6 @@
   export let appleUrl = '';
   let playing = false;
   let progress = 0;
-
 </script>
 
 <section class="w-full border border-1 border-black p-4">
@@ -13,10 +12,10 @@
     <img
       src={coverImage}
       alt={coverAlt}
-      class="w-full object-contain  rounded-xl mb-6"
+      class="w-full object-contain rounded-xl mb-6"
     />
   {/if}
-  <div class="w-full h-36 ">
+  <div class="w-full h-36">
     <iframe
       allow="autoplay *; 
       encrypted-media *;"
