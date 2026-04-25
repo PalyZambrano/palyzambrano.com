@@ -33,7 +33,7 @@
       <li>
         <CardLab
           title="Boda N&D"
-          image="/img-lab/bodand.png"
+          image="/img-lab/bodand/bodand.png"
           link="/lab/bodand"
         />
       </li>
@@ -46,9 +46,9 @@
       </li>
       <li>
         <CardLab
-          title="Maica"
-          image="/img-brand/maica/bolsa-maica.png"
-          link="/galeria/maica"
+          title="Colab Endurance by Achira"
+          image="/img-lab/colabend/resultado.jpg"
+          link="/lab/colabend"
         />
       </li>
       <li>

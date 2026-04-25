@@ -1,6 +1,6 @@
 <script>
   import SongCard from '$lib/components/SongCard.svelte';
-
+  let videoId = 'SBTejMtYpK8';
   const project = {
     title: 'Boda N&D',
     category: 'Ilustración',
@@ -44,7 +44,7 @@
     <iframe
       width="470"
       height="679"
-      src="https://www.youtube.com/embed/SBTejMtYpK8"
+      src={`https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&loop=1&playlist=${videoId}&controls=0`}
       title="Invitaciones Boda N&amp;D"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -52,3 +52,12 @@
     />
   </section>
 </article>
+
+<div class="grid md:grid-cols-2 gap-4 w-4/6 m-auto mt-10">
+  <div class=" p-4 bg-white">
+    <img src="/img-lab/bodand/bienvenida.png" alt="cartel bienbenidos" />
+  </div>
+  <div class="p-4 bg-white">
+    <img src="/img-lab/bodand/ilustracion.png" alt="ilustracion invitacion" />
+  </div>
+</div>
