@@ -47,14 +47,15 @@
       </div>
     </div>
   </section>
-  <section>
-    <img src="" alt="" />
-    <img src="" alt="" />
-    <img src="" alt="" />
+  <section class="max-w-4xl mx-auto">
+    <img src="/img-lab/colabend/ficha.png" alt="" />
   </section>
   <section class="px-6 md:px-12 pb-16 w-full">
     <div class="max-w-4xl mx-auto pt-24">
       <div class="space-y-4">
+        <span class="text-xs tracking-[0.3em] uppercase text-zinc-400">
+          Objetivo
+        </span>
         {#each project.objective as paragraph}
           <p class="text-lg md:text-base text-zinc-600 leading-relaxed">
             {paragraph}
@@ -63,18 +64,19 @@
       </div>
     </div>
   </section>
-  <section class="max-w-4xl mx-auto grid grid-cols-5">
+  <section class="grid md:grid-cols-2 gap-4 max-w-4xl mx-auto mt-10 p-4">
+    <img src="/img-lab/colabend/prensa.jpeg" alt="cartel bienbenidos" />
+    <img src="/img-lab/colabend/dtf.jpg" alt="ilustracion invitacion" />
+  </section>
+  <section class="max-w-4xl mx-auto grid grid-cols-5 my-12">
     <div class="bg-[#9F5FA0] h-10" />
     <div class="bg-[#FFD3ED] h-10" />
     <div class="bg-[#E052A5] h-10" />
     <div class="bg-[#B0D2F9] h-10" />
     <div class="bg-black h-10" />
   </section>
-  <section class="grid md:grid-cols-2 gap-4 max-w-4xl mx-auto mt-10 p-4">
-    <img src="/img-lab/colabend/prensa.jpeg" alt="cartel bienbenidos" />
-    <img src="/img-lab/colabend/dtf.jpg" alt="ilustracion invitacion" />
-  </section>
-  <section class="grid md:grid-cols-2 gap-4 max-w-4xl mx-auto mt-10">
+
+  <section class="grid md:grid-cols-2 gap-4 max-w-4xl mx-auto mt-10 pb-20">
     <img src="/img-lab/colabend/resultado.jpg" alt="cartel bienbenidos" />
     <div class="bg-zinc-100 flex items-center justify-center">
       <p
