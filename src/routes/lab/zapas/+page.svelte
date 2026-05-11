@@ -33,8 +33,7 @@
         </span>
       </div>
       <h1
-        class="text-5xl md:text-7xl font-light tracking-tight mb-8 leading-tight"
-      >
+        class="text-5xl md:text-7xl font-light tracking-tight mb-8 leading-tight">
         {project.title}
       </h1>
       <div class="space-y-4">
