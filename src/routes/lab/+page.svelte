@@ -51,20 +51,6 @@
           link="/lab/colabend"
         />
       </li>
-      <li>
-        <CardLab
-          title="Colomba"
-          image="/img-brand/colomba/col-procesos.png"
-          link="/galeria/colomba"
-        />
-      </li>
-      <li>
-        <CardLab
-          title="Maica"
-          image="/img-brand/maica/bolsa-maica.png"
-          link="/galeria/maica"
-        />
-      </li>
     </ul>
   </section>
 </main>
