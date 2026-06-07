@@ -5,7 +5,7 @@
   let isHamburgerMenuOpen = false;
 </script>
 
-<header class="px-8 md:px-16 bg-neutral-50">
+<header class="px-8 md:px-16 bg-neutral-50 sticky top-0 z-40">
   <div
     class="w-full flex py-4 items-center justify-between border-b border-gray-600 h-[80px]"
   >
@@ -18,15 +18,14 @@
     <nav class="hidden md:inline-block">
       <a
         class="nav-item"
-        href="/webdesign"
-        class:active-nav-item={$page.url.pathname.startsWith('/webdesign')}
-        >Diseño web</a
+        href="/coleccion"
+        class:active-nav-item={$page.url.pathname.startsWith('/coleccion')}
+        >Colección</a
       >
       <a
         class="nav-item"
-        href="/galeria"
-        class:active-nav-item={$page.url.pathname.startsWith('/galeria')}
-        >Galería</a
+        href="/lab"
+        class:active-nav-item={$page.url.pathname.startsWith('/lab')}>Lab</a
       >
       <a
         class="nav-item"
@@ -58,18 +57,20 @@
             <a
               on:click={() => (isHamburgerMenuOpen = false)}
               class="nav-item nav-item-mobile"
-              href="/webdesign"
-              class:active-nav-item={$page.url.pathname.startsWith('/galeria')}
-              >Diseño Web</a
+              href="/coleccion"
+              class:active-nav-item={$page.url.pathname.startsWith(
+                '/coleccion'
+              )}>Colección</a
             >
           </li>
-          <li class="text-center w-full">
+
+          <li>
             <a
               on:click={() => (isHamburgerMenuOpen = false)}
               class="nav-item nav-item-mobile"
-              href="/galeria"
-              class:active-nav-item={$page.url.pathname.startsWith('/galeria')}
-              >Galería</a
+              href="/lab"
+              class:active-nav-item={$page.url.pathname.startsWith('/lab')}
+              >Lab</a
             >
           </li>
           <li class="text-center w-full">
